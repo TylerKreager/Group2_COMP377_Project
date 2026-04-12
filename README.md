@@ -23,7 +23,7 @@ py -3.11 -m venv venv
 venv\Scripts\Activate
 pip install flask transformers pillow
 pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu121
-~~~~~~~~~~
+~~~~~~~~~~~~~
 
 
 in the Backend terminal input "python app.py" this will download Gemma3 (~8gb)
