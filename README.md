@@ -9,9 +9,9 @@ get access to use googles models https://huggingface.co/google/gemma-3-4b-it
 open the Backend folder in the terminal and input "hf auth login" then paste in your token
 
 If have a 50 series Nvidia GPU or no Nvidia GPU
-~
+~~~~~~~~~~~~~
 Download the libraries "pip install torch flask transformers pillow"
-~
+~~~~~~~~~~~~~
 
 
 If you have a Nvidia 40 series card or below
