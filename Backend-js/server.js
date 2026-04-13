@@ -1,8 +1,10 @@
 import express from "express";
 import fileUpload from "express-fileupload";
+import cors from "cors";
 import classifyImage from "./routes/classify.js";
 
 const app = express();
+app.use(cors());
 app.use(fileUpload());
 app.use(express.json());
 
