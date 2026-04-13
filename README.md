@@ -34,11 +34,48 @@ Starting backend
 
 after npm installs go to the Backend-js terminal and input "node server.js"  -- Successfully running will yield "Server is running on port 5000"
 
-pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu121
+
 
 
 In Backend-js install node modules.
 
+node server.js
+
+In Frontend install node mods
+
+npm run build
+
+npm run preview
 
 
+## Backend libraries used
 
+**Flask** 
+- Creates the webserver 
+- https://flask.palletsprojects.com/en/stable/
+
+**Pillow (pil)**
+- Processes the sent image 
+- https://pillow.readthedocs.io/en/stable/
+
+**IO**
+- Converts the image file into a format PIL can read
+- https://docs.python.org/3/library/io.html
+
+
+## Backend-js libraries used
+
+**Express**
+- Creates the webserver
+- https://expressjs.com/
+
+**Axios** 
+- HTTP client...sends/recieves requests from the Backend microservice.
+- https://axios-http.com/docs/intro
+
+**FormData**
+- Creates the payload that will be sent to the microservice
+- https://www.npmjs.com/package/form-data
+
+
+## Frontend libraries used
