@@ -6,7 +6,11 @@ const router = express.Router();
 
 router.post("/", async (req, res) => {
     try {
-        const file = req.files.image;
+        const file = req.files?.image;
+
+        if (!file) {
+            return res.status(400).json({ error: "No image file uploaded under field name 'image'." });
+        }
 
         const form = new FormData();
         form.append('image', file.data, file.name);
